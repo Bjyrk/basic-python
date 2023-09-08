@@ -4,5 +4,7 @@
 
 answer = input('Do you want to stop? ')
 
-while answer not 'yes':
-    print ('Do you want to stop? ')
+while answer != 'yes':
+    answer = input('Do you want to stop? ')
+    if answer == 'yes':
+        break

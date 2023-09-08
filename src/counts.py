@@ -15,6 +15,11 @@ count = {}
 # Count the characters in `x`` and put the counts in `counts`.
 # Your code goes here.
 
+for carecter in x:
+    if carecter not in count:
+        count[carecter] = 1
+    elif carecter in count:
+        count[carecter] += 1
 
 # Get the keys, i.e., the characters, in sorted order
 # and print the count
